@@ -1,0 +1,269 @@
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+  }
+
+  body a{
+    text-decoration: none;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #3333337d;
+    color: #333;
+    z-index: 1;
+    }
+
+    .nav div h4 {
+        position: fixed;
+        margin: 0;
+        font-variant-caps: small-caps;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        padding-top: 0.7rem;
+        padding-left: 2rem;
+        color: #fff;
+    }
+
+    .nav div ul {
+        list-style: none;
+        margin: 0;
+        margin-left: 15rem;
+        padding: 0;
+        padding-top: 00.7rem;
+        padding-left: 5rem;
+        display: flex;
+        justify-content:flex-end;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+
+        .nav div ul li a {
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+  .title {
+    text-align: center;
+    font-weight: 500px;
+    padding-top: 7rem;
+    color: rgb(23, 227, 122);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+  }
+
+  .iframe1 {
+    padding-right: 30rem;
+    padding-top: 7rem;
+    padding-left: 30rem;
+  }
+
+  .iframe1 .title-video {
+    color: rgb(157, 212, 251);
+  }
+
+  .sect {
+    width: 100%;
+    min-height: 1500px;
+  }
+  #sect1,
+  #sect3 {
+    background-color: #3333337d;
+    color: #fff;
+  }
+  #sect2 {
+    background-color: #dddddd7d;
+    color: #333;
+  }
+  
+  .video1 {
+    position: fixed;
+    right: 0;
+    bottom: 5;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 1));
+    z-index: -2;
+  }
+
+  /*Contenido del about*/
+
+
+  /*.contentabout1 {
+    padding-top: 7rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-bottom: 7rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(46, 215, 130);
+  }*/
+
+  .contentabout1 {
+    background-color: #daa9a97d;
+    display: flex;
+
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(46, 215, 130);
+  }
+
+  /*footer*/
+
+.footer{
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  padding-top: 1rem;
+  bottom: 0;
+  left: 0;
+  background-color: #424242;
+  color: #333;
+  position: relative;
+  z-index: 1;
+}
+
+.title-final{
+  color: #e0dddd;
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.container2{
+  padding: 30px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.footerselect1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: right;
+
+}
+
+.footerselect1 h4 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 16px;
+  text-align: left;
+  margin-bottom: 1px;
+  color: rgb(212, 201, 201);
+}
+
+.footerselect1 a {
+  color: rgb(212, 201, 201);
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+.footerselect1 a ul li h5 {
+  color: rgb(212, 201, 201);
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+  margin-bottom: 1px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  /*width: 50px;*/
+  text-align: center;
+  text-decoration: none;
+  font-display: swap;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitch {
+  background: #6441a5;
+  color: white;
+}
+
+.fa-discord {
+  background: #7289da;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+/*footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #424242;
+    color: #333;
+    background-color: #3333337d;
+    color: #333;
+    z-index: 1;
+  }*/
