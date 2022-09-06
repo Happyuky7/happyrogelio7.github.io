@@ -4,6 +4,18 @@ body {
     min-height: 100%;
   }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #5757577d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(87, 242, 146, 0.514);
+  border-radius: 10px;
+  border-right: 2px solid #5757577d;
+
+}
+
   body a{
     text-decoration: none;
   }
@@ -104,22 +116,47 @@ body {
     color: rgb(46, 215, 130);
   }*/
 
+  .box1 {
+    position: relative;
+    height: 100px;
+  }
+
   .contentabout1 {
-    background-color: #daa9a97d;
+    position: absolute;
+    background-color: #3658417d;
+    display: ruby-base;
+
+    margin: 0;
+    margin-left: 5rem;
+    margin-right: 70rem;
+
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(190, 210, 237);
+  }
+
+  .contentabout2 {
+    position:absolute;
+
+    background-color: #3658417d;
     display: flex;
 
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 8.2%;
     margin-bottom: 1rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 1rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: rgb(46, 215, 130);
+    color: rgb(73, 241, 118);
   }
 
   /*footer*/
@@ -267,3 +304,167 @@ body {
     color: #333;
     z-index: 1;
   }*/
+
+
+
+  @media only screen and (min-width:320px) and (max-width:480px){
+    /*<!—- Aquí van todos los estilos CSS -->*/
+
+    body::-webkit-scrollbar {
+      width: 10px;
+      background: #5757577d;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+      background: rgba(87, 242, 146, 0.514);
+      border-radius: 10px;
+      border-right: 2px solid #5757577d;
+    
+    }
+
+    .title {
+      text-align: center;
+      font-weight:7%;
+      padding-top: 7rem;
+      color: rgb(23, 227, 122);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 15px;
+    }
+
+    .video1 {
+      position: fixed;
+      right: 4;
+      left: 10;
+      bottom: 5;
+      min-width: 50%;
+      min-height: 50%;
+      transform: translateX(calc((50% - 7vw) / 1));
+      z-index: -2;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 55px;
+      background-color: #3333337d;
+      color: #333;
+      z-index: 1;
+    }
+
+    .nav div h4 {
+      position: fixed;
+      margin: 0;
+      font-variant-caps: small-caps;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      padding-top: 0.7rem;
+      padding-left: 2rem;
+      color: #fff;
+    }
+
+    .nav div ul {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 25px;
+      left: 25px;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .nav div ul li a {
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .contentabout1 {
+      background-color: #3658417d;
+      display: ruby-base;
+  
+      margin: 0;
+      margin-left: 5%;
+      margin-right: 50%;
+  
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      padding-bottom: 0.003rem;
+      padding-top: 0.003rem;
+  
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 15px;
+      color: rgb(190, 210, 237);
+      position: absolute;
+    }
+  
+    .contentabout2 {
+      background-color: #3658417d;
+      display: flex;
+  
+      margin: 0;
+      margin-top: 15.5%;
+      margin-bottom: 1rem;
+      margin-left: 5%;
+      margin-right: 1rem;
+
+      padding-top: 0.003rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-bottom: 0.003rem;
+
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      color: rgb(73, 241, 118);
+      position: absolute;
+    }
+    
+
+    .fa {
+      padding: 12px;
+      font-size: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-display: swap;
+    
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+    }
+
+     /*footer*/
+
+    .footer{
+      width: 100%;
+      height: 10%;
+      margin-top: auto;
+      padding-top: 0.05rem;
+      bottom: 0.04;
+      left: 0;
+      background-color: #424242;
+      color: #333;
+      position: relative;
+      z-index: 1;
+    }
+
+    .title-final{
+      color: #e0dddd;
+      font-size: 17px;
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+
+    .container2{
+      padding: 30px 0;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    }
