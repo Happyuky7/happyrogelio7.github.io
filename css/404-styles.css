@@ -1,8 +1,13 @@
+
+/* Global */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Body */
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -24,6 +29,7 @@ body{
     margin: auto;
     overflow: hidden;
 }
+
 /* Header */
 
 header{
